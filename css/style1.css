@@ -1,7 +1,7 @@
 html {
   font-size: 1rem;
   font-family: 'Grandstander', cursive;
-  background-color: #CBFFFD;
+  background-color: ##f1eaf3;
   font-weight: 900;
 }
 
@@ -11,13 +11,16 @@ body {
 }
 
 a {
-  text-decoration: underline;
-  color: #81BEF7;
+    text-decoration: underline;
+    color: #e00ecf;
+    font-family: oswald;
+    font-weight: bold;
 }
 
 a:hover {
   text-decoration: none;
-  color: #81BEF7;
+   color: #ff2fb4;
+   font-family: oswald;
 }
 
 main {
@@ -73,8 +76,8 @@ section {
   grid-template-columns: 2fr 3fr :
   grid-auto-row:min-content;
   grid-gap:0rem;
-  width: 24.5vw;
-  margin: 0 auto;
+   width: 26.5vw;
+   margin: 2px auto;
   justify-content: center;
   font-weight: 900;
 }
