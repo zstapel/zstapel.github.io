@@ -2,5 +2,23 @@ p {
    justify-content: center;
    margin-left: 26rem;
    margin-top: -7px;
+   font-size: 16px;
 
+}
+
+h1 {
+    margin-left: 412px;
+    margin-top: -288px;
+    font-size: 3rem;
+    margin-bottom: 13px;
+
+
+}
+
+h2 {
+	font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 39px;
+    margin-top: -303px;
 }
