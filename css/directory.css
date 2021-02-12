@@ -1,3 +1,63 @@
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.crumb {
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+a {
+    text-decoration: underline;
+    color: #e00ecf;
+    font-family: oswald;
+    font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #81BEF7;
+    font-family: oswald;
+}
+
+html {
+  font-size: 1rem;
+  font-family: 'Lora', serif;
+  background-color: #fff;
+}
+
+body {
+  padding:5rem 0;
+  color:#000;
+}
+
+a {
+  text-decoration: underline;
+  color: #e00ecf;
+  font-family: oswald;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #81BEF7;
+    font-family: oswald;
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
 html {
   font-size: 1rem;
   font-family: 'Oswald', sans-serif;

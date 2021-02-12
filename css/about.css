@@ -45,20 +45,26 @@ body {
 
 a {
   text-decoration: underline;
-  color: #ae7f3d;
+  color: #e00ecf;
+  font-family: oswald;
+  font-weight: bold;
 }
 
 a:hover {
   text-decoration: none;
-  color: #ae7f3d;
+  color: #81BEF7;
+    font-family: oswald;
 }
 
+nav {
+    border-bottom: 1px solid black;
+}
 
-
-    main {
-        max-width:90em;
-        margin:0 auto;
-    }
+main {
+  max-width:90em;
+  margin:0 auto;
+    
+}
 
 .grid-set {
   display: grid;
@@ -73,7 +79,7 @@ img {
 }
 
 
-    .grid-item {
+.grid-item {
   font-size: 1em;
   text-align: center;
   padding-top:1rem;
